@@ -19,7 +19,9 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/Cami.png") top right no-repeat;
+  background: #040404
+    url("/assets/img/background/thomas-stephan-bVlz5gv18Qk-unsplash2.png") top
+    right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -1064,6 +1066,10 @@ section .container {
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
+}
+
+#button {
+  font-weight: bold;
 }
 
 .contact .php-email-form button[type="submit"] {
